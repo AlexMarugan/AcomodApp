@@ -1,0 +1,9 @@
+{
+  "name": "Planificador de rondas",
+  "short_name": "Rondas",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f0",
+  "theme_color": "#4a6da7",
+  "description": "Planificador mensual de rondas"
+}
