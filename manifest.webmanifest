@@ -3,7 +3,15 @@
   "short_name": "Rondas",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f7f6f0",
+  "background_color": "#f5f8fc",
   "theme_color": "#4a6da7",
-  "description": "Planificador mensual de rondas"
+  "description": "Planificador mensual de rondas",
+  "icons": [
+    {
+      "src": "icono-Rondas.png",
+      "sizes": "150x150",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }

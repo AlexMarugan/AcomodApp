@@ -33,3 +33,4 @@ OneDrive sirve para conservar la carpeta y las copias JSON/PDF, pero su vista pr
 - Impresión o guardado como PDF desde el navegador.
 - Exportación e importación de copias JSON.
 - Caché offline mediante service worker.
+- Icono personalizado para la cabecera, favicon y pantalla de inicio.
