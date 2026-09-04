@@ -45,7 +45,7 @@
       <div id="stats" class="stats"></div>
       <div id="schedule" class="schedule"></div>
       <div id="fairness" class="fairness"></div>
-      <p class="edit-hint">Puedes cambiar cualquier nombre directamente en la planificación. La acomodación y MULT se sincronizan entre miércoles y domingo, y los cambios solo pasan al histórico al pulsar “Guardar en histórico”.</p>
+      <p class="edit-hint">Puedes cambiar cualquier nombre directamente en la planificación. Al modificar una asignación, se reajustan las reuniones posteriores; la acomodación y MULT se sincronizan entre miércoles y domingo. Los cambios solo pasan al histórico al pulsar “Guardar en histórico”.</p>
       <div class="action-row">
         <button id="saveHistoryBtn" class="secondary" type="button">Guardar en histórico</button>
         <button id="printBtn" class="secondary" type="button">Imprimir / PDF</button>
@@ -59,6 +59,10 @@
       </div>
       <p class="muted">Marca qué tareas puede realizar cada persona y cuándo está disponible.</p>
       <div id="peopleList" class="people-list"></div>
+      <div class="people-save-row">
+        <span class="save-status">Los cambios se guardan automáticamente.</span>
+        <button id="savePeopleBtn" class="secondary" type="button">Guardar cambios</button>
+      </div>
     </section>
 
     <section id="history" class="view">
