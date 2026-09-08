@@ -1,4 +1,4 @@
-const CACHE = 'rondas-v7-print-layout-date-fix';
+const CACHE = 'rondas-v9-shared-note-placement';
 const ASSETS = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icono-Rondas.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS))));
 self.addEventListener('fetch', event => event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request))));
